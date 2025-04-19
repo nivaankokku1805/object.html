@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        var student ={
+            name:"john",
+            age:10,
+            grade:"5"
+        }
+document.getElementById("demo").innerHTML= "Hello"+student.name+"you are"+student.age+"you study in grade"+student.grade
+
+//activity2
+
+     var value1=Math.acos(-1)
+     document.write(value1+"<br>")
+
+     var value2 = Math.asin(1)
+     document.write(value2 + "<br>")
+
+     var value3 = Math.atan(5)
+        document.write(value3 + "<br>")
+
+    var value4 = Math.ramdom()
+    document.write(value4 + "<br>")
+    //activity3
+    function findMax(){
+
+     var max=0
+     for (1=0; i < arguments.length; i++){
+        if(arguments[i]>max ){
+            max=arguments[i];
+        }
+     }
+     return max;
+     }
+     document.getElementById("demo1").innerHTML= findMax(18,56,22,3,5)
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
